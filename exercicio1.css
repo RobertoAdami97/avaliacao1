@@ -1,0 +1,15 @@
+body {
+    background: linear-gradient(90deg, rgba(2, 2, 2, 0.911) 0%, rgba(9,62,121,1) 35%, rgba(12,214,247,1) 100%);
+    font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+
+
+#links > a {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    color: black;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-top: 50px;
+}

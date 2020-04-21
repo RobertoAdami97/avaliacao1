@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(90deg, rgba(2, 2, 2, 0.733) 0%, rgba(9, 61, 121, 0.678) 35%, rgba(12, 216, 247, 0.623) 100%);
+    font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+}
+
+
+.texto {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}

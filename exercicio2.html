@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+    <link rel="stylesheet" href="exercicio2.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+
+    <div id="calculadora">
+        <input type="number" name="numero1" id="primeiroNumero" placeholder="Digite um numero">
+        <div class="break"></div>
+        <input type="number" name="numero2" id="segundoNumero" placeholder="Digite um numero">
+        <div class="break"></div>
+        <input type="number" name="numero3" id="terceiroNumero" placeholder="Digite um numero">    
+    </div>
+    
+    <div class="botao">
+        <button onclick="media()">Calcular Média</button>
+    </div>
+    
+    <hr/>
+
+    <div class="resposta">
+        <label for="mediaFinal" class="mediaFinal">Resultado:</label>
+        <input type="text" name="resultado" id="resultado">
+    </div>
+
+    <script src="exercicio2.js"></script>
+</body>
+</html>

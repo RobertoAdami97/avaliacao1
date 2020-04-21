@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(90deg, rgba(2, 2, 2, 0.815) 0%, rgba(9, 61, 121, 0.788) 35%, rgba(12, 216, 247, 0.733) 100%);
+    font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+
+
+.container {
+    width: 50%;
+    margin: auto;
+    border: 7.5px ridge yellow;
+    text-align: center;
+}
+
+.numero {
+    width: 90%;
+    margin: auto;
+    border: 0px ridge black;
+    text-align: center;
+}
+
+
+.botao {
+    background-color: white;
+    border: double;
+    color: black;
+    padding: 2px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+
+.button:hover {
+    background-color: #555555;
+    color: white;
+}
+.button:active {
+  background-color: #555555;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.gerarPalpites {
+    text-align: center;
+}
+
+.mostrarResultado {
+    text-align: center;
+}
+
+.ganhador {
+    color: blue;
+}
+
+.palpites {
+    text-align:"center";
+}
+
+h1 {
+    text-align: center;
+}
+
+.array {
+    text-align: center;
+    
+}
